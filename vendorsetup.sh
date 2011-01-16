@@ -22,5 +22,6 @@ add_lunch_combo cyanogen_epic-eng
 add_lunch_combo cyanogen_fascinate-eng
 add_lunch_combo cyanogen_galaxys-eng
 add_lunch_combo cyanogen_vibrant-eng
+add_lunch_combo cyanogen_galaxytab-eng
 
 PATH=$PATH:$PWD/vendor/cyanogen/tools ; export PATH
