@@ -2,7 +2,7 @@
 $(call inherit-product, device/samsung/galaxytab/full_galaxytab.mk)
 
 # Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cyanogen/products/common.mk)
+$(call inherit-product, vendor/cyanogen/products/common_full.mk)
 
 # Include GSM stuff
 $(call inherit-product, vendor/cyanogen/products/gsm.mk)
@@ -15,7 +15,7 @@ PRODUCT_BRAND := Samsung
 PRODUCT_DEVICE := galaxytab
 PRODUCT_MODEL := GT-P1000
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=soju BUILD_ID=GRH78 BUILD_DISPLAY_ID=GRH78 BUILD_FINGERPRINT=google/soju/crespo:2.3.1/GRH78/85442:user/release-keys PRIVATE_BUILD_DESC="soju-user 2.3.1 GRH78 85442 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=soju BUILD_ID=GRH78 BUILD_DISPLAY_ID=GRH78C BUILD_FINGERPRINT=google/soju/crespo:2.3.1/GRH78/85442:user/release-keys PRIVATE_BUILD_DESC="soju-user 2.3.1 GRH78 85442 release-keys"
 
 # Euro Tab
 #PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-P1000 BUILD_ID=FROYO BUILD_DISPLAY_ID=FROYO.XXJK5 BUILD_FINGERPRINT=samsung/GT-P1000/GT-P1000/GT-P1000:2.2/FROYO/XXJK5:user/release-keys PRIVATE_BUILD_DESC="GT-P1000-user 2.2 FROYO XXJK5 release-keys"
