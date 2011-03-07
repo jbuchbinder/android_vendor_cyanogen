@@ -119,6 +119,9 @@ ifdef CYANOGEN_WITH_GOOGLE
         vendor/cyanogen/proprietary/com.google.android.maps.xml:./system/etc/permissions/com.google.android.maps.xml \
         vendor/cyanogen/proprietary/features.xml:./system/etc/permissions/features.xml \
         vendor/cyanogen/proprietary/libvoicesearch.so:./system/lib/libvoicesearch.so
+
+    PRODUCT_PACKAGES += \
+        LatinIME
 else
     PRODUCT_PACKAGES += \
         Provision \
